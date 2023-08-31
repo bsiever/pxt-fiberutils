@@ -14,7 +14,7 @@
      * Distributed as-is; no warranty is given.
      */
 
-declare namespace i2crr {
+declare namespace fiberutils {
 }
 
 // Auto-generated. Do not edit. Really.

@@ -11,14 +11,15 @@
         "fiberutils.ts",
         "fiberutils.cpp",
         "shims.d.ts",
-        "enums.d.ts"
+        "enums.d.ts",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
     "targetVersions": {
-        "target": "4.0.18",
+        "target": "6.0.17",
         "targetId": "microbit"
     },
     "supportedTargets": [
