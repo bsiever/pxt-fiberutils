@@ -30,7 +30,7 @@
         "Bill Siever <bsiever@gmail.com>"
     ],
     "card": {
-        "name": "Reroute External I2C pins",
+        "name": "Utilities for working with (Execution) Fibers",
         "imageUrl": "file:../icon.png",
         "feedbackUrl": "http://siever.info"
     }
