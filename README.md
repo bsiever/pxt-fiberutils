@@ -1,7 +1,7 @@
 # Fiber Utilities
 
 ```package
-pins=github:bsiever/pxt-fiberutilities
+pins=github:bsiever/pxt-fiberutils
 ```
 
 This extension provides some utilities to work with fibers and implement faster looping without starving other foreground tasks.

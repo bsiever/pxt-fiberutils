@@ -20,7 +20,7 @@ using namespace pxt;
 namespace fiberutils { 
     
     //%
-    void schedule() {
+    void yield() {
         schedule();
     }
 }

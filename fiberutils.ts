@@ -4,9 +4,10 @@
 //% icon="\uf21e"
 //% block="Fiber utils"
 namespace fiberutils {
-    //% blockId="schedule" block="scheduler"
-    //% shim=fiberutils::schedule
-    export function schedule() : void {
+    //% blockId="yield" block="yield"
+    //% shim=fiberutils::yield
+    export function yield() : void {
+        pause(0)
         // Per https://github.com/microsoft/pxt-microbit/issues/4292
         0;
     }
@@ -18,7 +19,7 @@ namespace fiberutils {
     export function fastForever(handler: () => void) {
         while (true) {
             handler()
-            schedule()
+            yield()
         }
     }    
 }
