@@ -1,6 +1,6 @@
 {
     "name": "pxt-fiberutils",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Utilities for working with (Execution) Fibers",
     "license": "MIT",
     "dependencies": {
