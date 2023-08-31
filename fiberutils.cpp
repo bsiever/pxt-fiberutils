@@ -17,10 +17,10 @@
 
 using namespace pxt;
 
-namespace fiberUtils { 
+namespace fiberutils { 
     
     //%
     void schedule() {
-        codal::schedule();
+        schedule();
     }
 }

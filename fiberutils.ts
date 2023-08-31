@@ -10,4 +10,15 @@ namespace fiberutils {
         // Per https://github.com/microsoft/pxt-microbit/issues/4292
         0;
     }
+
+    /**
+     * Forever block that doesn't block as long as the default (max of 250HZ on v2)
+     */
+    //% block="fast forever"
+    export function fastForever(handler: () => void) {
+        while (true) {
+            handler()
+            schedule()
+        }
+    }    
 }
