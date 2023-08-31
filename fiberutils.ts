@@ -7,7 +7,7 @@ namespace fiberutils {
     //% blockId="yield" block="yield"
     //% shim=fiberutils::yield
     export function yield() : void {
-        pause(0)
+        pause(-100)
         // Per https://github.com/microsoft/pxt-microbit/issues/4292
         0;
     }
@@ -17,9 +17,11 @@ namespace fiberutils {
      */
     //% block="fast forever"
     export function fastForever(handler: () => void) {
+        control.inBackground( () => {
         while (true) {
             handler()
             yield()
         }
+        })
     }    
 }

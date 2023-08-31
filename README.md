@@ -11,7 +11,7 @@ This extension provides some utilities to work with fibers and implement faster 
 fastForever.fastForever(handler: handler: () => void) : void
 ``` 
 
-A superfast forever loop.  Top frequency is about 150kHz on the micro:bit V2.
+A superfast forever loop.  Top frequency is about 320kHz on the micro:bit V2.
 
 # Acknowledgements 
 
